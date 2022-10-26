@@ -1,0 +1,60 @@
+/*Darius Saadat*/
+
+/*Mobile Version*/
+@media screen and (max-width: 768px) {
+    .topBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: large;
+        flex-direction: row;
+        background-color: blue;
+    }
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        font-size: medium;
+        flex-direction: row;
+        background-color: lightblue;
+    }
+    .body{
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+
+/*Web Version*/
+@media screen and (min-width: 769px) {
+    .topBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: large;
+        flex-direction: column;
+        background-color: blue;
+    }
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        font-size: medium;
+        flex-direction: column;
+        background-color: lightblue;
+    }
+    .body{
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }   
+}
