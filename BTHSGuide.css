@@ -1,12 +1,12 @@
 /*Darius Saadat*/
 
-/*Mobile Version*/
-@media screen and (max-width: 768px) {
+/*Web Version*/
+@media screen and (min-width: 769px) {
     .topBar{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: large;
+        font-size: 100px;
         flex-direction: row;
         background-color: blue;
     }
@@ -14,9 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-right: 1px solid black;
-        border-left: 1px solid black;
-        font-size: medium;
+        font-size: large;
         flex-direction: row;
         background-color: lightblue;
     }
@@ -30,8 +28,8 @@
 }
 
 
-/*Web Version*/
-@media screen and (min-width: 769px) {
+/*Mobile Version*/
+@media screen and (max-width: 768px) {
     .topBar{
         display: flex;
         align-items: center;
@@ -44,8 +42,6 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-right: 1px solid black;
-        border-left: 1px solid black;
         font-size: medium;
         flex-direction: column;
         background-color: lightblue;
