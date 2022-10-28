@@ -22,8 +22,29 @@
         font-size: small;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
+        margin-bottom: 50px;
+    }
+    .footer{
+        background-color: lightblue;
+        font-size: large;
+        text-align: center;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .gallery>img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .galleryIntro{
+        text-align: center;
+        font-size: 75px;
     }
 }
 
@@ -52,5 +73,17 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-    }   
+        text-align: center;
+    }  
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .gallery>img{
+        width: 100%;
+        object-fit: cover;
+    } 
 }
