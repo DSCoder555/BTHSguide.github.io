@@ -8,7 +8,8 @@
         justify-content: space-between;
         font-size: 100px;
         flex-direction: row;
-        background-color: blue;
+        background-color: navy;
+        color: white;
     }
     .navBar{
         display: flex;
@@ -25,7 +26,14 @@
         justify-content: space-evenly;
         flex-direction: row;
         margin-bottom: 50px;
+        
     }
+
+    .body>div>p{
+        width: 80%;
+        text-align: center;
+    }
+
     .footer{
         background-color: lightblue;
         font-size: large;
@@ -57,7 +65,8 @@
         justify-content: space-between;
         font-size: large;
         flex-direction: column;
-        background-color: blue;
+        background-color: navy;
+        color: white;
     }
     .navBar{
         display: flex;
@@ -75,6 +84,12 @@
         flex-direction: column;
         text-align: center;
     }  
+    
+    .footer{
+        background-color: lightblue;
+        font-size: large;
+        text-align: center;
+    }
 
     .gallery{
         display: flex;
@@ -86,4 +101,8 @@
         width: 100%;
         object-fit: cover;
     } 
+    .galleryIntro{
+        text-align: center;
+        font-size: 75px;
+    }
 }
