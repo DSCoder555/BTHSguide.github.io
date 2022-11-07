@@ -39,15 +39,15 @@
         <div><p>Welcome to our Brooklyn Tech Guide.  Whether you are starting your first year or you just want to better familiarize yourself with the building, <br>this website will help you navigate the building and make sure you can get to class on time.  <br>To get started, click on one of the options on the navigation bar to get information on a certain floor.</p></div>
     </div>
     <div class = "body">
-        <form></form>
-        <div><p></p></div>
+        <form>
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="period">Enter your first lunch period:</label><br>
+            <input type="text" id="period" maxlength="1" onkeypress="return /[0-9]/i.test(event.key)" name="period">
+            <input type="submit" value="Submit">
+          </form>
+        <div><p>Lunchtime is a good time to meet friends.  We are taking a poll of students, please enter your first lunch period.</p></div>
     </div>
-    <div id="buttons">
-        Test case for the information buttons
-    </div>
-        <button onclick="button1();">Click me!</button>
-        <button onclick="button2();">NO! Click me!</button>
-        <button onclick="button3();">These Clowns >;)</button>
     <p class="galleryIntro">Photo Gallery</p>
     <div class="gallery">
 

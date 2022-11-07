@@ -20,7 +20,7 @@
         background-color: lightblue;
     }
     .body{
-        font-size: small;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -68,6 +68,7 @@
         flex-direction: column;
         background-color: navy;
         color: white;
+        text-align: center;
     }
     .navBar{
         display: flex;
@@ -76,9 +77,10 @@
         font-size: large;
         flex-direction: column;
         background-color: lightblue;
+        height: 250px;
     }
     .body{
-        font-size: small;
+        font-size: 15px;
         display: flex;
         align-items: center;
         justify-content: space-between;

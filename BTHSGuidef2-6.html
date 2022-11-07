@@ -10,17 +10,21 @@
     <script>
         function button1(){
             myDiv = document.getElementById("buttons");
-            myDiv.innerHTML = "the test has changed 1";
+            myDiv.innerHTML = "This is the North side of the building, distinguished usually by its darker color. This side borders Dekalb Avenue";
         }
 
         function button2(){
             myDiv = document.getElementById("buttons");
-            myDiv.innerHTML = "the test has changed 2";
+            myDiv.innerHTML = "This is the East side of the building, bording St Eliots Pl";
         }
 
         function button3(){
             myDiv = document.getElementById("buttons");
-            myDiv.innerHTML = "the test has changed 3";
+            myDiv.innerHTML = "This is the South side of the building, facing Laffayette Ave";
+        }
+        function button4(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "This is the West side of the building, bordering Fort Greene Pl"
         }
     </script>
 </head>
@@ -38,12 +42,19 @@
         <div><img src="Images/brooklyn-tech.jpg" alt="Outside view of Brooklyn Tech"></div>
         <div><p>Welcome to our Brooklyn Tech Guide.  Whether you are starting your first year or you just want to better familiarize yourself with the building, this website will help you navigate the building and make sure you can get to class on time.  To get started, click on one of the options on the navigation bar to get information on a certain floor.</p></div>
     </div>
-    <div id="buttons">
-        Test case for the information buttons
+    <div class="body">
+        <div id="buttons">
+            Test case for the information buttons
+        </div>
+        <div>
+        <button onclick="button1();">North Wall</button>
+        <button onclick="button2();">East Wall</button>
+        <button onclick="button3();">South Wall</button>
+        <button onclick="button4();">West Wall</button>
+        </div>
+        
     </div>
-        <button onclick="button1();">Click me!</button>
-        <button onclick="button2();">NO! Click me!</button>
-        <button onclick="button3();">These Clowns >;)</button>
+        
     <p class="galleryIntro">Photo Gallery</p>
     <div class="gallery">
 
