@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7th floor</title>
     <link rel="stylesheet" href="BTHSGuide.css">
+    <script>
+        function button1(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 1";
+        }
+
+        function button2(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 2";
+        }
+
+        function button3(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 3";
+        }
+    </script>
 </head>
 <body>
     <div class="topBar">
@@ -26,6 +42,12 @@
         <form></form>
         <div><p></p></div>
     </div>
+    <div id="buttons">
+        Test case for the information buttons
+    </div>
+        <button onclick="button1();">Click me!</button>
+        <button onclick="button2();">NO! Click me!</button>
+        <button onclick="button3();">These Clowns >;)</button>
     <p class="galleryIntro">Photo Gallery</p>
     <div class="gallery">
 

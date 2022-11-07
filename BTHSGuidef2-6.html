@@ -7,6 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd-6th Floor</title>
     <link rel="stylesheet" href="BTHSGuide.css">
+    <script>
+        function button1(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 1";
+        }
+
+        function button2(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 2";
+        }
+
+        function button3(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 3";
+        }
+    </script>
 </head>
 <body>
     <div class="topBar">
@@ -22,6 +38,12 @@
         <div><img src="Images/brooklyn-tech.jpg" alt="Outside view of Brooklyn Tech"></div>
         <div><p>Welcome to our Brooklyn Tech Guide.  Whether you are starting your first year or you just want to better familiarize yourself with the building, this website will help you navigate the building and make sure you can get to class on time.  To get started, click on one of the options on the navigation bar to get information on a certain floor.</p></div>
     </div>
+    <div id="buttons">
+        Test case for the information buttons
+    </div>
+        <button onclick="button1();">Click me!</button>
+        <button onclick="button2();">NO! Click me!</button>
+        <button onclick="button3();">These Clowns >;)</button>
     <p class="galleryIntro">Photo Gallery</p>
     <div class="gallery">
 
