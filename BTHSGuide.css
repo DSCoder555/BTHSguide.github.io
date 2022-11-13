@@ -2,6 +2,7 @@
 
 /*Web Version*/
 @media screen and (min-width: 769px) {
+    /*Designs the top banner, used for all pages*/
     .topBar{
         display: flex;
         align-items: center;
@@ -11,6 +12,7 @@
         background-color: navy;
         color: white;
     }
+    /*Designs the navigation row, used for all pages*/
     .navBar{
         display: flex;
         align-items: center;
@@ -19,6 +21,7 @@
         flex-direction: row;
         background-color: lightblue;
     }
+    /*Designs the body sections so that they are well-spaced, used for all pages*/
     .body{
         font-size: 20px;
         display: flex;
@@ -28,29 +31,30 @@
         margin-bottom: 50px;
         
     }
-
+    /*Designs the body sections so that paragraphs are uniform, used for all pages*/
     .body>div>p{
         width: 80%;
         text-align: center;
         margin-left: 50px;
     }
-
+    /*Designs the footer sections, used for all pages*/
     .footer{
         background-color: lightblue;
         font-size: large;
         text-align: center;
     }
+    /*Designs the photo gallery, used for F1 page*/
     .gallery{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
     }
-
+    /*Designs each photo in the photo gallery, used for F1 page*/
     .gallery>img{
         width: 100%;
         object-fit: cover;
     }
-
+    /*Designs the title of the photo gallery, used for F1 page*/
     .galleryIntro{
         text-align: center;
         font-size: 75px;
@@ -60,6 +64,7 @@
 
 /*Mobile Version*/
 @media screen and (max-width: 768px) {
+    /*Designs the top banner, used for all pages*/
     .topBar{
         display: flex;
         align-items: center;
@@ -70,6 +75,7 @@
         color: white;
         text-align: center;
     }
+    /*Designs the navigation row, used for all pages*/
     .navBar{
         display: flex;
         align-items: center;
@@ -79,6 +85,7 @@
         background-color: lightblue;
         height: 250px;
     }
+    /*Designs the body sections so that they are well-spaced, used for all pages*/
     .body{
         font-size: 15px;
         display: flex;
@@ -87,23 +94,24 @@
         flex-direction: column;
         text-align: center;
     }  
-    
+    /*Designs the footer sections, used for all pages*/
     .footer{
         background-color: lightblue;
         font-size: large;
         text-align: center;
     }
-
+    /*Designs the photo gallery, used for F1 page*/
     .gallery{
         display: flex;
         flex-direction: column;
 
     }
-
+    /*Designs each photo in the photo gallery, used for F1 page*/
     .gallery>img{
         width: 100%;
         object-fit: cover;
     } 
+    /*Designs the title of the photo gallery, used for F1 page*/
     .galleryIntro{
         text-align: center;
         font-size: 75px;
