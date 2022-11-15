@@ -104,7 +104,7 @@
     .gallery{
         display: flex;
         flex-direction: column;
-
+        gap: 10px;
     }
     /*Designs each photo in the photo gallery, used for F1 page*/
     .gallery>img{
