@@ -8,6 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st Floor</title>
     <link rel="stylesheet" href="BTHSGuide.css">
+    <!---This is the JS for the buttons that control the changing text-->
+    <script>
+        function button1(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 1";
+            myDiv.innerHTML = "This is the auditorium. It is one of the biggest public auditoriums in NYC. Here you will come to watch school plays, school concerts, and just hangout after your school ends.";
+            
+        }
+
+        function button2(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 2";
+            myDiv.innerHTML = "This is the lobby, the first place you will see upon entering. Here you will gather yourself before going to classes, or meet up with your friends to hangout after school.";
+        }
+
+        function button3(){
+            myDiv = document.getElementById("buttons");
+            myDiv.innerHTML = "the test has changed 3";
+            myDiv.innerHTML = "This is where you will turn in your absence form after having it signed by your teachers. The link for the form is (https://www.bths.edu/parents/forms/Absence_Form_BTHS_3-9-19.pdf)";
+        }
+    </script>
 </head>
 <body>
     <!--Header made with topBar class-->
@@ -31,7 +52,7 @@
             Test case for the information buttons
         </div>
         <div>
-            <button onclick="button1();">Auditorium</button>
+            <button onclick="button1(); show();" >Auditorium</button>
             <button onclick="button2();">Lobby</button>
             <button onclick="button3();">Absence Form Turn In</button>
     

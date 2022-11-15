@@ -8,24 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2nd-6th Floor</title>
     <link rel="stylesheet" href="BTHSGuide.css">
+    <!---This is the JS for the buttons that control the text and images-->
     <script>
         function button1(){
             myDiv = document.getElementById("buttons");
             myDiv.innerHTML = "This is the North side of the building, distinguished usually by its darker color. This side borders Dekalb Avenue";
+            document.getElementById("image").src ="Images/north_hall.jpg";
         }
 
         function button2(){
             myDiv = document.getElementById("buttons");
             myDiv.innerHTML = "This is the East side of the building, bording St Eliots Pl";
+            document.getElementById("image").src ="Images/east_hall.jpg";
         }
 
         function button3(){
             myDiv = document.getElementById("buttons");
             myDiv.innerHTML = "This is the South side of the building, facing Laffayette Ave";
+            document.getElementById("image").src ="Images/south_hall.jpg";
         }
         function button4(){
             myDiv = document.getElementById("buttons");
             myDiv.innerHTML = "This is the West side of the building, bordering Fort Greene Pl"
+            document.getElementById("image").src ="Images/absence.jpg";
         }
     </script>
 </head>
@@ -57,7 +62,9 @@
         <button onclick="button3();">South Wall</button>
         <button onclick="button4();">West Wall</button>
         </div>
-        
+        <div >
+            <img id="image" src="Images/map.jpg" alt="Map" width="300px">
+        </div>
     </div>
     <!--Footer made with footer class-->
     <div class="footer">
